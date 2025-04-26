@@ -99,8 +99,8 @@ uart:
   tx_pin: ${uart_tx}
 
 api:
-  encryption:
-    key: "${api_key}"
+#  encryption:
+#    key: "${api_key}"
 
 ota:
 - platform: esphome
